@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Beyonders;
+    src: url(../stuffs/Beyonders.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../stuffs/Montserrat-SemiBold.otf);
+}
+@font-face {
+    font-family: MontserratItalic;
+    src: url(../stuffs/Montserrat-SemiBoldItalic.otf);
+}
+
+
+*{
+    padding: 1rem ;
+    box-sizing: border-box;
+    margin: 0 ;
+    text-align: center;
+    font-family: Montserrat;
+    color: rgb(45, 48, 39);
+}
+
+hr{
+    width: 40%;
+    border: solid;
+    margin: auto;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-bottom: 2.5rem;
+}
+.build{
+    font-size: 2.5rem;
+}
+
+.small-description{
+    font-family: MontserratItalic ;
+    font-size: 1.1rem;
+    margin: 20px 30px 20px 30px;
+}
+/* ---------------------------------------- */
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.container{
+    width: 230px;
+    height: 310px;
+    padding: 0 ;
+    margin: 18px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2); 
+    margin: 10px; 
+    padding: 0;
+}
+.front{
+    padding:0;
+}
+
+.front p {
+    padding :0;
+}
+.name{
+    margin-top: 7px;
+}
+.front img{
+    width: 100%;
+    height: auto; /* Change krna hai isko*/
+    margin: 0;
+    padding: 0;  
+}
+.card-content{
+    padding: 0px;
+}
+
+.name {
+    color: rgb(45, 48, 39);
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+}
+.card-content .des{
+    color: rgb(45, 48, 39);
+    font-size: 1rem;
+    margin-top: .2rem;
+    padding-top: 0;
+}
+
+
+
